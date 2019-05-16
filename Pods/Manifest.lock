@@ -16,8 +16,6 @@ PODS:
   - Reusable/Storyboard (4.0.5)
   - Reusable/View (4.0.5)
   - SnapKit (5.0.0)
-  - SnapKitExtend (1.0.6):
-    - SnapKit
   - Then (2.4.0)
 
 DEPENDENCIES:
@@ -27,7 +25,7 @@ DEPENDENCIES:
   - MBProgressHUD
   - Moya
   - Reusable
-  - SnapKitExtend
+  - SnapKit (~> 5.0.0)
   - Then
 
 SPEC REPOS:
@@ -41,7 +39,6 @@ SPEC REPOS:
     - Result
     - Reusable
     - SnapKit
-    - SnapKitExtend
     - Then
 
 SPEC CHECKSUMS:
@@ -54,9 +51,8 @@ SPEC CHECKSUMS:
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
   SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
-  SnapKitExtend: 8a018ef80fd8e2658f5436e8722592ad05652f5b
   Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
 
-PODFILE CHECKSUM: fd1f1836e6d47957833aecb1ac4c36def7f125f9
+PODFILE CHECKSUM: 6b52b937a34dca661fffbae6366e81bf899da192
 
 COCOAPODS: 1.6.1
