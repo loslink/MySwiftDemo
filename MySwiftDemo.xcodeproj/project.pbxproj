@@ -15,6 +15,9 @@
 		1F255B5E228CF9AB0005F18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F255B5C228CF9AB0005F18C /* LaunchScreen.storyboard */; };
 		1F255B69228CF9AB0005F18C /* MySwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F255B68228CF9AB0005F18C /* MySwiftDemoTests.swift */; };
 		1F255B74228CF9AB0005F18C /* MySwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F255B73228CF9AB0005F18C /* MySwiftDemoUITests.swift */; };
+		1F747F9022982C230034EA91 /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F747F8F22982C230034EA91 /* AnimateViewController.swift */; };
+		1F9ADA9D228D0522004EC2E8 /* MyDrawBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9ADA9C228D0522004EC2E8 /* MyDrawBoard.swift */; };
+		1FC659D5228D390200E94293 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC659D4228D390200E94293 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		1F255B6F228CF9AB0005F18C /* MySwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F255B73228CF9AB0005F18C /* MySwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftDemoUITests.swift; sourceTree = "<group>"; };
 		1F255B75228CF9AB0005F18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F747F8F22982C230034EA91 /* AnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
+		1F9ADA9C228D0522004EC2E8 /* MyDrawBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDrawBoard.swift; sourceTree = "<group>"; };
+		1FC659D4228D390200E94293 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		BEF86E6181A6DC1B9F7D8DF2 /* Pods-MySwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-MySwiftDemo/Pods-MySwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D64209F7653646F0BC253FC1 /* Pods-MySwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-MySwiftDemo/Pods-MySwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E3C9EA92A3C0909ED51BF57A /* Pods_MySwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +119,8 @@
 		1F255B52228CF9A90005F18C /* MySwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1F747F8E22982BEA0034EA91 /* Ui */,
+				1FC659D3228D38BD00E94293 /* Widget */,
 				1F255B53228CF9A90005F18C /* AppDelegate.swift */,
 				1F255B55228CF9A90005F18C /* ViewController.swift */,
 				1F255B57228CF9A90005F18C /* Main.storyboard */,
@@ -139,6 +147,23 @@
 				1F255B75228CF9AB0005F18C /* Info.plist */,
 			);
 			path = MySwiftDemoUITests;
+			sourceTree = "<group>";
+		};
+		1F747F8E22982BEA0034EA91 /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				1F747F8F22982C230034EA91 /* AnimateViewController.swift */,
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		1FC659D3228D38BD00E94293 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				1F9ADA9C228D0522004EC2E8 /* MyDrawBoard.swift */,
+				1FC659D4228D390200E94293 /* MyView.swift */,
+			);
+			path = Widget;
 			sourceTree = "<group>";
 		};
 		C50559183FF989DD30148D30 /* Frameworks */ = {
@@ -347,7 +372,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F747F9022982C230034EA91 /* AnimateViewController.swift in Sources */,
+				1FC659D5228D390200E94293 /* MyView.swift in Sources */,
 				1F255B56228CF9A90005F18C /* ViewController.swift in Sources */,
+				1F9ADA9D228D0522004EC2E8 /* MyDrawBoard.swift in Sources */,
 				1F255B54228CF9A90005F18C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
