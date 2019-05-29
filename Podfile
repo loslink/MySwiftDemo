@@ -11,6 +11,12 @@ target 'MySwiftDemo' do
   pod 'HandyJSON', '5.0.0-beta.1'
   pod 'MBProgressHUD'
   pod 'HMSegmentedControl'
+  
+  pod 'MJRefresh'
+  pod 'DZNEmptyDataSet'
+  pod 'IQKeyboardManager'
+  pod 'YYCache'
+  pod 'Alamofire'
 
 end
 

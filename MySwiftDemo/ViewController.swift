@@ -11,6 +11,8 @@ import SnapKit
 
 class ViewController: UIViewController,UIScrollViewDelegate {
     
+    let BUTTON_HEIGHT=50
+    
     lazy var scrollview:UIScrollView={
         var scroll=UIScrollView()
         scroll.contentSize = CGSize(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
@@ -25,6 +27,16 @@ class ViewController: UIViewController,UIScrollViewDelegate {
     lazy var button1:UIButton={
         var bt=UIButton()
         bt.setTitle("动画", for: .normal)
+        bt.setTitleColor(.white, for: .normal)
+        bt.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+        bt.backgroundColor = UIColor.blue
+        bt.layer.cornerRadius=8
+        return bt
+    }()
+    
+    lazy var button2:UIButton={
+        var bt=UIButton()
+        bt.setTitle("自定义view", for: .normal)
         bt.setTitleColor(.white, for: .normal)
         bt.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         bt.backgroundColor = UIColor.blue
@@ -47,14 +59,26 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         button1.addTarget(self, action: Selector("button1Click"), for: .touchUpInside)
         button1.snp.makeConstraints { (make) in
             make.left.top.equalToSuperview().offset(20)
-            make.height.equalTo(50)
+            make.height.equalTo(BUTTON_HEIGHT)
+            make.width.equalToSuperview().offset(-40)
+        }
+        
+        scrollview.addSubview(button2)
+        button2.addTarget(self, action: Selector("button2Click"), for: .touchUpInside)
+        button2.snp.makeConstraints { (make) in
+            make.top.equalTo(button1.snp.bottom).offset(20)
+            make.left.equalToSuperview().offset(20)
+            make.height.equalTo(BUTTON_HEIGHT)
             make.width.equalToSuperview().offset(-40)
         }
     }
     
     @objc func button1Click(){
-        print("button1")
         navigationController?.pushViewController(AnimateViewController(), animated: true)
+    }
+    
+    @objc func button2Click(){
+        navigationController?.pushViewController(DrawViewController(), animated: true)
     }
 
     //只要滚动一直触发contentOffset变化

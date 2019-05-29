@@ -16,8 +16,34 @@
 		1F255B69228CF9AB0005F18C /* MySwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F255B68228CF9AB0005F18C /* MySwiftDemoTests.swift */; };
 		1F255B74228CF9AB0005F18C /* MySwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F255B73228CF9AB0005F18C /* MySwiftDemoUITests.swift */; };
 		1F747F9022982C230034EA91 /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F747F8F22982C230034EA91 /* AnimateViewController.swift */; };
+		1F747F98229AE2120034EA91 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F747F97229AE2120034EA91 /* CustomView.swift */; };
+		1F747F9A229B7E9B0034EA91 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F747F99229B7E9B0034EA91 /* DrawViewController.swift */; };
 		1F9ADA9D228D0522004EC2E8 /* MyDrawBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9ADA9C228D0522004EC2E8 /* MyDrawBoard.swift */; };
 		1FC659D5228D390200E94293 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC659D4228D390200E94293 /* MyView.swift */; };
+		1FEF9EA7229E2EE20016EC63 /* JHRegularHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E8B229E2EE10016EC63 /* JHRegularHelp.swift */; };
+		1FEF9EA8229E2EE20016EC63 /* ValueChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E8C229E2EE10016EC63 /* ValueChange.swift */; };
+		1FEF9EA9229E2EE20016EC63 /* Array+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E8D229E2EE10016EC63 /* Array+JHExtension.swift */; };
+		1FEF9EAA229E2EE20016EC63 /* Color+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E8E229E2EE10016EC63 /* Color+JHExtension.swift */; };
+		1FEF9EAB229E2EE20016EC63 /* Date+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E8F229E2EE10016EC63 /* Date+JHExtension.swift */; };
+		1FEF9EAC229E2EE20016EC63 /* String+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E90229E2EE10016EC63 /* String+JHExtension.swift */; };
+		1FEF9EAD229E2EE20016EC63 /* Dictionary+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E91229E2EE10016EC63 /* Dictionary+JHExtension.swift */; };
+		1FEF9EAE229E2EE20016EC63 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E93229E2EE10016EC63 /* ServiceManager.swift */; };
+		1FEF9EAF229E2EE20016EC63 /* ScrollView+JHEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E95229E2EE10016EC63 /* ScrollView+JHEmptyDataSet.swift */; };
+		1FEF9EB0229E2EE20016EC63 /* ScrollView+JHRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E96229E2EE10016EC63 /* ScrollView+JHRefresh.swift */; };
+		1FEF9EB1229E2EE20016EC63 /* JHProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E97229E2EE10016EC63 /* JHProgressHUD.swift */; };
+		1FEF9EB2229E2EE20016EC63 /* UIView+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E99229E2EE20016EC63 /* UIView+JHExtension.swift */; };
+		1FEF9EB3229E2EE20016EC63 /* UIImage+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E9A229E2EE20016EC63 /* UIImage+JHExtension.swift */; };
+		1FEF9EB4229E2EE20016EC63 /* UILabel+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E9B229E2EE20016EC63 /* UILabel+JHExtension.swift */; };
+		1FEF9EB5229E2EE20016EC63 /* JHLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E9C229E2EE20016EC63 /* JHLabel.swift */; };
+		1FEF9EB6229E2EE20016EC63 /* JHTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E9D229E2EE20016EC63 /* JHTextView.swift */; };
+		1FEF9EB7229E2EE20016EC63 /* UITextField+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E9E229E2EE20016EC63 /* UITextField+JHExtension.swift */; };
+		1FEF9EB8229E2EE20016EC63 /* UIButton+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9E9F229E2EE20016EC63 /* UIButton+JHExtension.swift */; };
+		1FEF9EB9229E2EE20016EC63 /* UITapGestureRecognizer+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9EA0229E2EE20016EC63 /* UITapGestureRecognizer+JHExtension.swift */; };
+		1FEF9EBA229E2EE20016EC63 /* JHPOPAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9EA1229E2EE20016EC63 /* JHPOPAlertView.swift */; };
+		1FEF9EBB229E2EE20016EC63 /* TimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9EA3229E2EE20016EC63 /* TimerButton.swift */; };
+		1FEF9EBC229E2EE20016EC63 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9EA4229E2EE20016EC63 /* EntryView.swift */; };
+		1FEF9EBD229E2EE20016EC63 /* SwiftPopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9EA5229E2EE20016EC63 /* SwiftPopMenu.swift */; };
+		1FEF9EBE229E2EE20016EC63 /* LocationTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF9EA6229E2EE20016EC63 /* LocationTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +78,34 @@
 		1F255B73228CF9AB0005F18C /* MySwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftDemoUITests.swift; sourceTree = "<group>"; };
 		1F255B75228CF9AB0005F18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F747F8F22982C230034EA91 /* AnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
+		1F747F97229AE2120034EA91 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		1F747F99229B7E9B0034EA91 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		1F9ADA9C228D0522004EC2E8 /* MyDrawBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDrawBoard.swift; sourceTree = "<group>"; };
 		1FC659D4228D390200E94293 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		1FEF9E8B229E2EE10016EC63 /* JHRegularHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHRegularHelp.swift; sourceTree = "<group>"; };
+		1FEF9E8C229E2EE10016EC63 /* ValueChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueChange.swift; sourceTree = "<group>"; };
+		1FEF9E8D229E2EE10016EC63 /* Array+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9E8E229E2EE10016EC63 /* Color+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9E8F229E2EE10016EC63 /* Date+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9E90229E2EE10016EC63 /* String+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9E91229E2EE10016EC63 /* Dictionary+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9E93229E2EE10016EC63 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		1FEF9E95229E2EE10016EC63 /* ScrollView+JHEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+JHEmptyDataSet.swift"; sourceTree = "<group>"; };
+		1FEF9E96229E2EE10016EC63 /* ScrollView+JHRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+JHRefresh.swift"; sourceTree = "<group>"; };
+		1FEF9E97229E2EE10016EC63 /* JHProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHProgressHUD.swift; sourceTree = "<group>"; };
+		1FEF9E99229E2EE20016EC63 /* UIView+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9E9A229E2EE20016EC63 /* UIImage+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9E9B229E2EE20016EC63 /* UILabel+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9E9C229E2EE20016EC63 /* JHLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHLabel.swift; sourceTree = "<group>"; };
+		1FEF9E9D229E2EE20016EC63 /* JHTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHTextView.swift; sourceTree = "<group>"; };
+		1FEF9E9E229E2EE20016EC63 /* UITextField+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9E9F229E2EE20016EC63 /* UIButton+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9EA0229E2EE20016EC63 /* UITapGestureRecognizer+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+JHExtension.swift"; sourceTree = "<group>"; };
+		1FEF9EA1229E2EE20016EC63 /* JHPOPAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHPOPAlertView.swift; sourceTree = "<group>"; };
+		1FEF9EA3229E2EE20016EC63 /* TimerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerButton.swift; sourceTree = "<group>"; };
+		1FEF9EA4229E2EE20016EC63 /* EntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		1FEF9EA5229E2EE20016EC63 /* SwiftPopMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPopMenu.swift; sourceTree = "<group>"; };
+		1FEF9EA6229E2EE20016EC63 /* LocationTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTool.swift; sourceTree = "<group>"; };
 		BEF86E6181A6DC1B9F7D8DF2 /* Pods-MySwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-MySwiftDemo/Pods-MySwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D64209F7653646F0BC253FC1 /* Pods-MySwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-MySwiftDemo/Pods-MySwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E3C9EA92A3C0909ED51BF57A /* Pods_MySwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +171,7 @@
 		1F255B52228CF9A90005F18C /* MySwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1FEF9E89229E2EC30016EC63 /* Ext */,
 				1F747F8E22982BEA0034EA91 /* Ui */,
 				1FC659D3228D38BD00E94293 /* Widget */,
 				1F255B53228CF9A90005F18C /* AppDelegate.swift */,
@@ -153,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				1F747F8F22982C230034EA91 /* AnimateViewController.swift */,
+				1F747F99229B7E9B0034EA91 /* DrawViewController.swift */,
 			);
 			path = Ui;
 			sourceTree = "<group>";
@@ -162,8 +216,80 @@
 			children = (
 				1F9ADA9C228D0522004EC2E8 /* MyDrawBoard.swift */,
 				1FC659D4228D390200E94293 /* MyView.swift */,
+				1F747F97229AE2120034EA91 /* CustomView.swift */,
 			);
 			path = Widget;
+			sourceTree = "<group>";
+		};
+		1FEF9E89229E2EC30016EC63 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF9E8A229E2EE10016EC63 /* Foundation */,
+				1FEF9E92229E2EE10016EC63 /* Hardware */,
+				1FEF9EA2229E2EE20016EC63 /* Other */,
+				1FEF9E94229E2EE10016EC63 /* ThirdParty */,
+				1FEF9E98229E2EE20016EC63 /* UiKit */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		1FEF9E8A229E2EE10016EC63 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF9E8B229E2EE10016EC63 /* JHRegularHelp.swift */,
+				1FEF9E8C229E2EE10016EC63 /* ValueChange.swift */,
+				1FEF9E8D229E2EE10016EC63 /* Array+JHExtension.swift */,
+				1FEF9E8E229E2EE10016EC63 /* Color+JHExtension.swift */,
+				1FEF9E8F229E2EE10016EC63 /* Date+JHExtension.swift */,
+				1FEF9E90229E2EE10016EC63 /* String+JHExtension.swift */,
+				1FEF9E91229E2EE10016EC63 /* Dictionary+JHExtension.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		1FEF9E92229E2EE10016EC63 /* Hardware */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF9E93229E2EE10016EC63 /* ServiceManager.swift */,
+			);
+			path = Hardware;
+			sourceTree = "<group>";
+		};
+		1FEF9E94229E2EE10016EC63 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF9E95229E2EE10016EC63 /* ScrollView+JHEmptyDataSet.swift */,
+				1FEF9E96229E2EE10016EC63 /* ScrollView+JHRefresh.swift */,
+				1FEF9E97229E2EE10016EC63 /* JHProgressHUD.swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		1FEF9E98229E2EE20016EC63 /* UiKit */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF9E99229E2EE20016EC63 /* UIView+JHExtension.swift */,
+				1FEF9E9A229E2EE20016EC63 /* UIImage+JHExtension.swift */,
+				1FEF9E9B229E2EE20016EC63 /* UILabel+JHExtension.swift */,
+				1FEF9E9C229E2EE20016EC63 /* JHLabel.swift */,
+				1FEF9E9D229E2EE20016EC63 /* JHTextView.swift */,
+				1FEF9E9E229E2EE20016EC63 /* UITextField+JHExtension.swift */,
+				1FEF9E9F229E2EE20016EC63 /* UIButton+JHExtension.swift */,
+				1FEF9EA0229E2EE20016EC63 /* UITapGestureRecognizer+JHExtension.swift */,
+				1FEF9EA1229E2EE20016EC63 /* JHPOPAlertView.swift */,
+			);
+			path = UiKit;
+			sourceTree = "<group>";
+		};
+		1FEF9EA2229E2EE20016EC63 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1FEF9EA3229E2EE20016EC63 /* TimerButton.swift */,
+				1FEF9EA4229E2EE20016EC63 /* EntryView.swift */,
+				1FEF9EA5229E2EE20016EC63 /* SwiftPopMenu.swift */,
+				1FEF9EA6229E2EE20016EC63 /* LocationTool.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		C50559183FF989DD30148D30 /* Frameworks */ = {
@@ -335,30 +461,38 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MySwiftDemo/Pods-MySwiftDemo-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
 				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -373,10 +507,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F747F9022982C230034EA91 /* AnimateViewController.swift in Sources */,
+				1FEF9EAD229E2EE20016EC63 /* Dictionary+JHExtension.swift in Sources */,
 				1FC659D5228D390200E94293 /* MyView.swift in Sources */,
+				1FEF9EB9229E2EE20016EC63 /* UITapGestureRecognizer+JHExtension.swift in Sources */,
+				1FEF9EAA229E2EE20016EC63 /* Color+JHExtension.swift in Sources */,
+				1FEF9EA8229E2EE20016EC63 /* ValueChange.swift in Sources */,
 				1F255B56228CF9A90005F18C /* ViewController.swift in Sources */,
+				1FEF9EB1229E2EE20016EC63 /* JHProgressHUD.swift in Sources */,
+				1FEF9EB6229E2EE20016EC63 /* JHTextView.swift in Sources */,
+				1FEF9EAF229E2EE20016EC63 /* ScrollView+JHEmptyDataSet.swift in Sources */,
+				1FEF9EB7229E2EE20016EC63 /* UITextField+JHExtension.swift in Sources */,
+				1FEF9EAC229E2EE20016EC63 /* String+JHExtension.swift in Sources */,
+				1FEF9EBA229E2EE20016EC63 /* JHPOPAlertView.swift in Sources */,
+				1FEF9EB2229E2EE20016EC63 /* UIView+JHExtension.swift in Sources */,
+				1FEF9EB0229E2EE20016EC63 /* ScrollView+JHRefresh.swift in Sources */,
+				1FEF9EB3229E2EE20016EC63 /* UIImage+JHExtension.swift in Sources */,
+				1FEF9EB8229E2EE20016EC63 /* UIButton+JHExtension.swift in Sources */,
+				1FEF9EB5229E2EE20016EC63 /* JHLabel.swift in Sources */,
+				1FEF9EAB229E2EE20016EC63 /* Date+JHExtension.swift in Sources */,
+				1FEF9EA7229E2EE20016EC63 /* JHRegularHelp.swift in Sources */,
+				1F747F98229AE2120034EA91 /* CustomView.swift in Sources */,
+				1F747F9A229B7E9B0034EA91 /* DrawViewController.swift in Sources */,
+				1FEF9EB4229E2EE20016EC63 /* UILabel+JHExtension.swift in Sources */,
+				1FEF9EA9229E2EE20016EC63 /* Array+JHExtension.swift in Sources */,
 				1F9ADA9D228D0522004EC2E8 /* MyDrawBoard.swift in Sources */,
+				1FEF9EBB229E2EE20016EC63 /* TimerButton.swift in Sources */,
+				1FEF9EBC229E2EE20016EC63 /* EntryView.swift in Sources */,
 				1F255B54228CF9A90005F18C /* AppDelegate.swift in Sources */,
+				1FEF9EBD229E2EE20016EC63 /* SwiftPopMenu.swift in Sources */,
+				1FEF9EBE229E2EE20016EC63 /* LocationTool.swift in Sources */,
+				1FEF9EAE229E2EE20016EC63 /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
