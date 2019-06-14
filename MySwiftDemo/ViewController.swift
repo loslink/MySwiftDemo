@@ -44,6 +44,56 @@ class ViewController: UIViewController,UIScrollViewDelegate {
         return bt
     }()
     
+    lazy var button3:UIButton={
+        var bt=UIButton()
+        bt.setTitle("文字", for: .normal)
+        bt.setTitleColor(.white, for: .normal)
+        bt.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+        bt.backgroundColor = UIColor.blue
+        bt.layer.cornerRadius=8
+        return bt
+    }()
+    
+    lazy var button4:UIButton={
+        var bt=UIButton()
+        bt.setTitle("温度进度", for: .normal)
+        bt.setTitleColor(.white, for: .normal)
+        bt.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+        bt.backgroundColor = UIColor.blue
+        bt.layer.cornerRadius=8
+        return bt
+    }()
+    
+    lazy var button5:UIButton={
+        var bt=UIButton()
+        bt.setTitle("波浪", for: .normal)
+        bt.setTitleColor(.white, for: .normal)
+        bt.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+        bt.backgroundColor = UIColor.blue
+        bt.layer.cornerRadius=8
+        return bt
+    }()
+    
+    lazy var button6:UIButton={
+        var bt=UIButton()
+        bt.setTitle("多路径绘图", for: .normal)
+        bt.setTitleColor(.white, for: .normal)
+        bt.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+        bt.backgroundColor = UIColor.blue
+        bt.layer.cornerRadius=8
+        return bt
+    }()
+    
+    lazy var button7:UIButton={
+        var bt=UIButton()
+        bt.setTitle("波浪球", for: .normal)
+        bt.setTitleColor(.white, for: .normal)
+        bt.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+        bt.backgroundColor = UIColor.blue
+        bt.layer.cornerRadius=8
+        return bt
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -71,6 +121,51 @@ class ViewController: UIViewController,UIScrollViewDelegate {
             make.height.equalTo(BUTTON_HEIGHT)
             make.width.equalToSuperview().offset(-40)
         }
+        
+        scrollview.addSubview(button3)
+        button3.addTarget(self, action: Selector("button3Click"), for: .touchUpInside)
+        button3.snp.makeConstraints { (make) in
+            make.top.equalTo(button2.snp.bottom).offset(20)
+            make.left.equalToSuperview().offset(20)
+            make.height.equalTo(BUTTON_HEIGHT)
+            make.width.equalToSuperview().offset(-40)
+        }
+        
+        scrollview.addSubview(button4)
+        button4.addTarget(self, action: Selector("button4Click"), for: .touchUpInside)
+        button4.snp.makeConstraints { (make) in
+            make.top.equalTo(button3.snp.bottom).offset(20)
+            make.left.equalToSuperview().offset(20)
+            make.height.equalTo(BUTTON_HEIGHT)
+            make.width.equalToSuperview().offset(-40)
+        }
+        
+        scrollview.addSubview(button5)
+        button5.addTarget(self, action: Selector("button5Click"), for: .touchUpInside)
+        button5.snp.makeConstraints { (make) in
+            make.top.equalTo(button4.snp.bottom).offset(20)
+            make.left.equalToSuperview().offset(20)
+            make.height.equalTo(BUTTON_HEIGHT)
+            make.width.equalToSuperview().offset(-40)
+        }
+        
+        scrollview.addSubview(button6)
+        button6.addTarget(self, action: Selector("button6Click"), for: .touchUpInside)
+        button6.snp.makeConstraints { (make) in
+            make.top.equalTo(button5.snp.bottom).offset(20)
+            make.left.equalToSuperview().offset(20)
+            make.height.equalTo(BUTTON_HEIGHT)
+            make.width.equalToSuperview().offset(-40)
+        }
+        
+        scrollview.addSubview(button7)
+        button7.addTarget(self, action: Selector("button7Click"), for: .touchUpInside)
+        button7.snp.makeConstraints { (make) in
+            make.top.equalTo(button6.snp.bottom).offset(20)
+            make.left.equalToSuperview().offset(20)
+            make.height.equalTo(BUTTON_HEIGHT)
+            make.width.equalToSuperview().offset(-40)
+        }
     }
     
     @objc func button1Click(){
@@ -79,6 +174,36 @@ class ViewController: UIViewController,UIScrollViewDelegate {
     
     @objc func button2Click(){
         navigationController?.pushViewController(DrawViewController(), animated: true)
+    }
+    
+    @objc func button3Click(){
+        let vc=CustomViewController()
+        vc.extra = CustomViewController.EXTRA_TEXT
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func button4Click(){
+        let vc=CustomViewController()
+        vc.extra = CustomViewController.EXTRA_TEMP
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func button5Click(){
+        let vc=CustomViewController()
+        vc.extra = CustomViewController.EXTRA_WAVE
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func button6Click(){
+        let vc=CustomViewController()
+        vc.extra = CustomViewController.EXTRA_MUTI_PATH
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc func button7Click(){
+        let vc=CustomViewController()
+        vc.extra = CustomViewController.EXTRA_FLOAT_BALL
+        navigationController?.pushViewController(vc, animated: true)
     }
 
     //只要滚动一直触发contentOffset变化

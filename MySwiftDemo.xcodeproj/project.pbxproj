@@ -15,6 +15,13 @@
 		1F255B5E228CF9AB0005F18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F255B5C228CF9AB0005F18C /* LaunchScreen.storyboard */; };
 		1F255B69228CF9AB0005F18C /* MySwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F255B68228CF9AB0005F18C /* MySwiftDemoTests.swift */; };
 		1F255B74228CF9AB0005F18C /* MySwiftDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F255B73228CF9AB0005F18C /* MySwiftDemoUITests.swift */; };
+		1F5F25BC22B0A300000B36A3 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F25BB22B0A300000B36A3 /* CustomViewController.swift */; };
+		1F5F25BE22B0A809000B36A3 /* MTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F25BD22B0A809000B36A3 /* MTextView.swift */; };
+		1F5F25C022B0ED5E000B36A3 /* TemperatureMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F25BF22B0ED5E000B36A3 /* TemperatureMeter.swift */; };
+		1F5F25C222B1F66F000B36A3 /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F25C122B1F66F000B36A3 /* WaveView.swift */; };
+		1F5F25C422B238DB000B36A3 /* MyMutiPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F25C322B238DB000B36A3 /* MyMutiPath.swift */; };
+		1F5F25C622B23D5B000B36A3 /* CADisplayLinkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F25C522B23D5B000B36A3 /* CADisplayLinkExtensions.swift */; };
+		1F5F25C822B24032000B36A3 /* FloatBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F25C722B24032000B36A3 /* FloatBall.swift */; };
 		1F747F9022982C230034EA91 /* AnimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F747F8F22982C230034EA91 /* AnimateViewController.swift */; };
 		1F747F98229AE2120034EA91 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F747F97229AE2120034EA91 /* CustomView.swift */; };
 		1F747F9A229B7E9B0034EA91 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F747F99229B7E9B0034EA91 /* DrawViewController.swift */; };
@@ -92,6 +99,13 @@
 		1F255B6F228CF9AB0005F18C /* MySwiftDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F255B73228CF9AB0005F18C /* MySwiftDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftDemoUITests.swift; sourceTree = "<group>"; };
 		1F255B75228CF9AB0005F18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F5F25BB22B0A300000B36A3 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		1F5F25BD22B0A809000B36A3 /* MTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTextView.swift; sourceTree = "<group>"; };
+		1F5F25BF22B0ED5E000B36A3 /* TemperatureMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureMeter.swift; sourceTree = "<group>"; };
+		1F5F25C122B1F66F000B36A3 /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		1F5F25C322B238DB000B36A3 /* MyMutiPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMutiPath.swift; sourceTree = "<group>"; };
+		1F5F25C522B23D5B000B36A3 /* CADisplayLinkExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CADisplayLinkExtensions.swift; sourceTree = "<group>"; };
+		1F5F25C722B24032000B36A3 /* FloatBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatBall.swift; sourceTree = "<group>"; };
 		1F747F8F22982C230034EA91 /* AnimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateViewController.swift; sourceTree = "<group>"; };
 		1F747F97229AE2120034EA91 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		1F747F99229B7E9B0034EA91 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
@@ -239,6 +253,7 @@
 			children = (
 				1F747F8F22982C230034EA91 /* AnimateViewController.swift */,
 				1F747F99229B7E9B0034EA91 /* DrawViewController.swift */,
+				1F5F25BB22B0A300000B36A3 /* CustomViewController.swift */,
 			);
 			path = Ui;
 			sourceTree = "<group>";
@@ -249,6 +264,11 @@
 				1F9ADA9C228D0522004EC2E8 /* MyDrawBoard.swift */,
 				1FC659D4228D390200E94293 /* MyView.swift */,
 				1F747F97229AE2120034EA91 /* CustomView.swift */,
+				1F5F25BD22B0A809000B36A3 /* MTextView.swift */,
+				1F5F25BF22B0ED5E000B36A3 /* TemperatureMeter.swift */,
+				1F5F25C122B1F66F000B36A3 /* WaveView.swift */,
+				1F5F25C322B238DB000B36A3 /* MyMutiPath.swift */,
+				1F5F25C722B24032000B36A3 /* FloatBall.swift */,
 			);
 			path = Widget;
 			sourceTree = "<group>";
@@ -309,6 +329,7 @@
 				1FEF9E9F229E2EE20016EC63 /* UIButton+JHExtension.swift */,
 				1FEF9EA0229E2EE20016EC63 /* UITapGestureRecognizer+JHExtension.swift */,
 				1FEF9EA1229E2EE20016EC63 /* JHPOPAlertView.swift */,
+				1F5F25C522B23D5B000B36A3 /* CADisplayLinkExtensions.swift */,
 			);
 			path = UiKit;
 			sourceTree = "<group>";
@@ -567,6 +588,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F5F25C422B238DB000B36A3 /* MyMutiPath.swift in Sources */,
 				1FFF1A5122AFB80200DCDDE7 /* SwiftyStoreKit.swift in Sources */,
 				1F747F9022982C230034EA91 /* AnimateViewController.swift in Sources */,
 				1FFF1A5622AFB80200DCDDE7 /* RestorePurchasesController.swift in Sources */,
@@ -578,6 +600,7 @@
 				1FEF9EAA229E2EE20016EC63 /* Color+JHExtension.swift in Sources */,
 				1FEF9EA8229E2EE20016EC63 /* ValueChange.swift in Sources */,
 				1F255B56228CF9A90005F18C /* ViewController.swift in Sources */,
+				1F5F25C622B23D5B000B36A3 /* CADisplayLinkExtensions.swift in Sources */,
 				1FFF1A5322AFB80200DCDDE7 /* CompleteTransactionsController.swift in Sources */,
 				1FEF9EB1229E2EE20016EC63 /* JHProgressHUD.swift in Sources */,
 				1FEF9EB6229E2EE20016EC63 /* JHTextView.swift in Sources */,
@@ -588,9 +611,12 @@
 				1FFF1A4C22AFB80200DCDDE7 /* SKProduct+LocalizedPrice.swift in Sources */,
 				1FEF9EB2229E2EE20016EC63 /* UIView+JHExtension.swift in Sources */,
 				1FFF1A5922AFB80200DCDDE7 /* AppleReceiptValidator.swift in Sources */,
+				1F5F25C222B1F66F000B36A3 /* WaveView.swift in Sources */,
 				1FEF9EB0229E2EE20016EC63 /* ScrollView+JHRefresh.swift in Sources */,
 				1FFF1A5022AFB80200DCDDE7 /* InAppReceipt.swift in Sources */,
+				1F5F25BE22B0A809000B36A3 /* MTextView.swift in Sources */,
 				1FEF9EB3229E2EE20016EC63 /* UIImage+JHExtension.swift in Sources */,
+				1F5F25BC22B0A300000B36A3 /* CustomViewController.swift in Sources */,
 				1FEF9EB8229E2EE20016EC63 /* UIButton+JHExtension.swift in Sources */,
 				1FFF1A5722AFB80200DCDDE7 /* PaymentQueueController.swift in Sources */,
 				1FEF9EB5229E2EE20016EC63 /* JHLabel.swift in Sources */,
@@ -600,6 +626,7 @@
 				1FFF1A5522AFB80200DCDDE7 /* OS.swift in Sources */,
 				1F747F98229AE2120034EA91 /* CustomView.swift in Sources */,
 				1F747F9A229B7E9B0034EA91 /* DrawViewController.swift in Sources */,
+				1F5F25C822B24032000B36A3 /* FloatBall.swift in Sources */,
 				1FFF1A5222AFB80200DCDDE7 /* ProductsInfoController.swift in Sources */,
 				1FEF9EB4229E2EE20016EC63 /* UILabel+JHExtension.swift in Sources */,
 				1FEF9EA9229E2EE20016EC63 /* Array+JHExtension.swift in Sources */,
@@ -613,6 +640,7 @@
 				1FEF9EBE229E2EE20016EC63 /* LocationTool.swift in Sources */,
 				1FFF1A4F22AFB80200DCDDE7 /* SwiftyStoreKit+Types.swift in Sources */,
 				1FEF9EAE229E2EE20016EC63 /* ServiceManager.swift in Sources */,
+				1F5F25C022B0ED5E000B36A3 /* TemperatureMeter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
